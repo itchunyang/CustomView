@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_number_progress"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.itchunyang.customview.activity.NumberProgressActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_marginBottom="20dp"
+        android:onClick="start"
+        android:text="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.itchunyang.customview.view.NumberProgress
+        android:layout_marginTop="15dp"
+        app:textColor="#00a200"
+        app:reachedColor="#00a200"
+        app:reachedHeight="3dp"
+        app:unreachedColor="#cccccc"
+        app:unreachedHeight="1dp"
+        app:currentProgress="0"
+        app:maxProgress="100"
+        android:id="@+id/numberProgress"
+        app:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.itchunyang.customview.view.NumberProgress
+        android:layout_marginTop="15dp"
+        app:textColor="#2196F3"
+        app:reachedColor="#2196F3"
+        app:reachedHeight="5dp"
+        app:unreachedColor="#cccccc"
+        app:unreachedHeight="1dp"
+        app:currentProgress="10"
+        app:maxProgress="100"
+        app:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.itchunyang.customview.view.NumberProgress
+        android:layout_marginTop="15dp"
+        app:textColor="#FF4081"
+        app:reachedColor="#FF4081"
+        app:reachedHeight="3dp"
+        app:unreachedColor="#cccccc"
+        app:unreachedHeight="1dp"
+        app:currentProgress="20"
+        app:maxProgress="100"
+        app:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.itchunyang.customview.view.NumberProgress
+        android:layout_marginTop="15dp"
+        app:textColor="#00BCD4"
+        app:reachedColor="#00BCD4"
+        app:reachedHeight="3dp"
+        app:unreachedColor="#cccccc"
+        app:unreachedHeight="1dp"
+        app:currentProgress="30"
+        app:maxProgress="100"
+        app:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.itchunyang.customview.view.NumberProgress
+        android:layout_marginTop="15dp"
+        app:textColor="#03A9F4"
+        app:reachedColor="#03A9F4"
+        app:reachedHeight="3dp"
+        app:unreachedColor="#cccccc"
+        app:unreachedHeight="1dp"
+        app:currentProgress="40"
+        app:maxProgress="100"
+        app:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.itchunyang.customview.view.NumberProgress
+        android:layout_marginTop="15dp"
+        app:textColor="#FFC107"
+        app:reachedColor="#FFC107"
+        app:reachedHeight="3dp"
+        app:unreachedColor="#cccccc"
+        app:unreachedHeight="1dp"
+        app:currentProgress="50"
+        app:maxProgress="100"
+        app:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.itchunyang.customview.view.NumberProgress
+        android:layout_marginTop="15dp"
+        app:textColor="#FF5722"
+        app:reachedColor="#FF5722"
+        app:reachedHeight="3dp"
+        app:unreachedColor="#cccccc"
+        app:unreachedHeight="1dp"
+        app:currentProgress="60"
+        app:maxProgress="100"
+        app:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.itchunyang.customview.view.NumberProgress
+        android:layout_marginTop="15dp"
+        app:textColor="#795548"
+        app:reachedColor="#795548"
+        app:reachedHeight="3dp"
+        app:unreachedColor="#cccccc"
+        app:unreachedHeight="1dp"
+        app:currentProgress="70"
+        app:maxProgress="100"
+        app:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.itchunyang.customview.view.NumberProgress
+        android:layout_marginTop="15dp"
+        android:padding="8dp"
+        android:background="#000000"
+        app:textColor="#607D8B"
+        app:reachedColor="#607D8B"
+        app:reachedHeight="3dp"
+        app:unreachedColor="#cccccc"
+        app:unreachedHeight="1dp"
+        app:currentProgress="80"
+        app:maxProgress="100"
+        app:textSize="35sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

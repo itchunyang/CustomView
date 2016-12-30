@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itchunyang.customview.activity.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:textSize="25sp"
+        android:padding="20dp"
+        android:onClick="custom1"
+        android:textAllCaps="false"
+        android:text="Custom1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textSize="25sp"
+        android:padding="20dp"
+        android:onClick="authView"
+        android:textAllCaps="false"
+        android:text="验证码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textSize="25sp"
+        android:padding="20dp"
+        android:onClick="numberProgress"
+        android:textAllCaps="false"
+        android:text="线性进度条"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textSize="25sp"
+        android:padding="20dp"
+        android:onClick="customProgress"
+        android:textAllCaps="false"
+        android:text="透明"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textSize="25sp"
+        android:padding="20dp"
+        android:onClick="myViewGroup"
+        android:textAllCaps="false"
+        android:text="ViewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textSize="25sp"
+        android:padding="20dp"
+        android:onClick="navigationView"
+        android:textAllCaps="false"
+        android:text="NavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textSize="25sp"
+        android:padding="20dp"
+        android:onClick="flowLayout"
+        android:textAllCaps="false"
+        android:text="FlowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
